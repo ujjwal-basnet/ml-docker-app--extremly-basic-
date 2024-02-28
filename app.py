@@ -1,8 +1,9 @@
-from sklearn import datasets 
-from sklearn.model_selection import tain_test_split 
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from skleran.metrics import accuracy_score
+from sklearn.metrics import accuracy_score
 import joblib 
+
 
 #load datasets 
 iris = datasets.load_iris()
